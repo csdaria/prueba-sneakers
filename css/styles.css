@@ -1,0 +1,62 @@
+html{
+    box-sizing: border-box;
+    font-size:16.5%;
+
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+body{
+    font-family: 'Karla', sans-serif;
+    font-size:16px;
+}
+
+main{
+    margin:0 auto;
+    max-width:500px;
+    max-height:900px;
+    border:1px solid black;
+}
+
+.image{
+
+    content: url(../images/nike-red.jpeg);
+    width:100%;
+
+}
+
+.lang{
+    margin: 2rem;
+    
+    
+}
+
+.title{
+    font-size:7rem;
+    text-align:center;
+}
+
+.desc{
+    font-size:5rem;
+    text-align:center;
+    margin:4rem;
+}
+
+.buy{
+    display:flex;
+    background-color:brown;
+    margin:3rem auto;
+    width:50%;
+    height:10rem;
+    text-decoration:none;
+    border-radius:5rem;
+    color:white;
+    justify-content: center;
+    line-height:2;
+    font-size:5rem;
+}
+
